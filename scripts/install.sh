@@ -10,10 +10,10 @@ install_benoit() {
 
 mkdir -p deps
 cd deps
-#install_benoit "ParGenes"
+install_benoit "ParGenes"
 install_benoit "GeneRax"
-#install_benoit "AleRax"
-#install_benoit "Asteroid"
+install_benoit "AleRax"
+install_benoit "Asteroid"
 cd ..
 
 

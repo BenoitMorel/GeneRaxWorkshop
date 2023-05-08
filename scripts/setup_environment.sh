@@ -11,5 +11,18 @@ generaxbin=${deps}/GeneRax/build/bin
 aleraxbin=${deps}/AleRax/build/bin
 asteroidbin=${deps}/Asteroid/build/bin
 
-export PATH="${pargenesbin}:${raxmlbin}:${generaxbin}:${aleraxbin}:${asteroidbin}:${PATH}"
-echo $PATH
+toadd="${pargenesbin}:${raxmlbin}:${generaxbin}:${aleraxbin}:${asteroidbin}"
+
+export PATH="${toadd}:${PATH}"
+
+
+
+bashrcline="export PATH=\"${toadd}:\${PATH}\""
+
+echo "" >> ~/.bashrc
+echo "$bashrcline" >> ~/.bashrc
+
+echo "Adding the following paths to the PATH variable: ${toadd}"
+echo "Adding the following line to your ~/.bashrc file: $bashrcline" 
+
+
