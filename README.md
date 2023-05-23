@@ -1,5 +1,9 @@
 # GeneRaxWorkshop
 
+If you have already installed the required software, you can go to the [wiki](https://github.com/BenoitMorel/GeneRaxWorkshop/wiki) to start the workshop.
+
+# Requirements
+
 To compile the softare, please first install the following dependencies (you might already have some of them installed):
 * [git](https://git-scm.com/)
 * [cmake](https://cmake.org/) 
