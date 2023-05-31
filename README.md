@@ -11,6 +11,7 @@ To compile the softare, please first install the following dependencies (you mig
 * [python3](https://www.python.org/downloads/)
 * The [ete3](http://etetoolkit.org/) python library
 * [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) (optionnal, but we'll use it to parallelize computations)
+* Java 1.6 or later
 
 To check if you already have them installed, check that the following commands exist:
 ```
@@ -19,7 +20,7 @@ cmake --version
 gcc --version
 python3 --version
 mpiexec --version # checks MPI installation
-
+java -version
 ```
 
 On ubuntu, you can install the missing dependencies with:
