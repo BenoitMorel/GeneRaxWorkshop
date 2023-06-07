@@ -2,6 +2,17 @@
 
 If you have already installed the required software, you can go to the [wiki](https://github.com/BenoitMorel/GeneRaxWorkshop/wiki) to start the workshop.
 
+If you are working on a workstation of the ITAPHY workshop, you have to open a console and run:
+
+```
+. /usr/local/GeneRaxWorkshop/scripts/setup_environment.sh
+git clone https://github.com/BenoitMorel/GeneRaxWorkshop.git
+cd GeneRaxWorkshop
+```
+
+and skip the rest of this readme file (go to the  [wiki](https://github.com/BenoitMorel/GeneRaxWorkshop/wiki))
+
+
 # Requirements
 
 To compile the softare, please first install the following dependencies (you might already have some of them installed):
