@@ -60,4 +60,6 @@ raxml-ng --version
 
 Note that this script adds a line to your `~/.bashrc` file, in order to set up the environment variables everytime you open a console. Feel free to remove this line from bashrc at the end of the workshop.
 
+You can now start the practical [here](https://github.com/BenoitMorel/GeneRaxWorkshop/wiki)
+
 
