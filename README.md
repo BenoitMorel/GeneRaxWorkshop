@@ -2,7 +2,7 @@
 
 If you have already installed the required software, you can go to the [wiki](https://github.com/BenoitMorel/GeneRaxWorkshop/wiki) to start the workshop.
 
-If you are working on a workstation of the ITAPHY workshop, you have to open a console and run:
+If you are working on a workstation of the ITAPHY workshop, you can just open a console and run:
 
 ```
 . /usr/local/GeneRaxWorkshop/scripts/setup_environment.sh
@@ -12,6 +12,7 @@ cd GeneRaxWorkshop
 
 and skip the rest of this readme file (go to the  [wiki](https://github.com/BenoitMorel/GeneRaxWorkshop/wiki))
 
+Otherwise (e.g. if you want to run the practical from your own laptop), you have to go through the rest of this readme.
 
 # Requirements
 
